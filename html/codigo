@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+<link rel="stylesheet" href="style.css">
+ <style> 
+body {
+        background-image: 
+        url('https://visa-infinite.com/images/default/vte/travel-experience-1x.jpg');
+        }
+</style>
+        
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Login</title>
+
+
+      
+    </head>
+
+    <body>
+     
+      
+<font color="#22223B">  
+<h1><i> Helparefugee<br></i></h1>
+</font>
+ 
+    <font color="EB8A90">
+    <h1><i><p>.Org<p></i></h1>
+      
+    </font>
+      <button class="button button1">
+      <font color="white"> <b>
+       Anfitriã
+        </b>
+        </font>
+         </button>
+  
+
+
+  </font>
+      <button class="button button2">
+      <font color="303130"> <b>
+       Refugiada
+        </b>
+        </font>
+         </button>
+  
+  
+
+
+
+
+
+      
+
+        <div id="login">
+
+            <form class="card">
+
+                <div class="card-header">
+
+                    <h2>Login</h2>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario">Usuário</label>
+
+                        <input type="text" id="usuario" autocomplete="off">
+
+                    </div>
+
+                    <div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" id="password" autocomplete="off">
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="submit" value="login" class="submit">
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+
+                </div>
+
+            </form>
+
+        </div>
+
+   <div id="current_date"></p><font color = "pink" >
+        <script>
+        date = new Date();
+        year = date.getFullYear();
+        month = date.getMonth() + 1;
+        day = date.getDate();
+        document.getElementById("current_date").innerHTML =  day+ "/" + month + "/" + year;
+        </script>
+</font>
+</html>
